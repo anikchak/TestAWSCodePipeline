@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: /
+  - source: /TestAWSCodePipeline-1.0-SNAPSHOT.jar
     destination: /home/ubuntu/installables
 
 hooks:
