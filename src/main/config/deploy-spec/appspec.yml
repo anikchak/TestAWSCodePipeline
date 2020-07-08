@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /home/ubuntu/installables
+
+hooks:
+  BeforeInstall:
+    - location: configureHosts.sh
+      timeout: 600
+      runas: ubuntu
+#    - location: newrelic.sh
+#      timeout: 600
+#      runas: ubuntu
+  ApplicationStart:
+    - location: deploy.sh
+      timeout: 300
+      runas: ubuntu

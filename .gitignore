@@ -5,3 +5,5 @@ target/
 *.iml
 *.ipr
 *.log
+
+.DS_Store
