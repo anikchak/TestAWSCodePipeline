@@ -7,4 +7,4 @@ kill -9 $pid
 echo Step completed
 
 #start application
-java -jar /home/ubuntu/installables/TestAWSCodePipeline-1.0-SNAPSHOT.jar
+java -jar /home/ubuntu/installables/test-app.jar
