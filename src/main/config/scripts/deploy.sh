@@ -7,4 +7,4 @@ kill -9 $pid
 echo Step completed
 
 #start application
-java -jar /home/ubuntu/installables/test-app.jar
+nohup java -jar /home/ubuntu/installables/test-app.jar &
