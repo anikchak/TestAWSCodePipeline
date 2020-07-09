@@ -7,4 +7,4 @@ kill -9 $pid
 echo Step completed
 
 #start application
-nohup java -jar test-app.jar > /dev/null 2>&1&
+nohup java -jar test-app.jar > /dev/null 2> /dev/null < /dev/null &
