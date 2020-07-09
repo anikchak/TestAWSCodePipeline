@@ -1,0 +1,15 @@
+[Unit]
+Description=Test App Service
+Requires=network.target
+After=network.target syslog.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+Type=simple
+WorkingDirectory=/home/ubuntu/installables
+ExecStart=/usr/bin/java -jar /home/ubuntu/installables/test-app.jar
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
