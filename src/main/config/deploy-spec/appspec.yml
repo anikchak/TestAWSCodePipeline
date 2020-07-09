@@ -4,7 +4,8 @@ os: linux
 files:
   - source: /test-app.jar
     destination: /home/ubuntu/installables
-
+  - source: /test-app-service
+    destination: /home/ubuntu/installables
 hooks:
   BeforeInstall:
     - location: configureHosts.sh
