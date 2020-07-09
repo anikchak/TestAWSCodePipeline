@@ -7,7 +7,7 @@ kill -9 $pid
 echo Step completed
 
 # Updating system.service file
-sudo cp /home/ubuntu/installables/test-app.service /etc/systemd/system/
+sudo cp /home/ubuntu/installables/test-app-service /etc/systemd/system/
 
 # Update the system-daemon
 sudo systemctl daemon-reload
