@@ -8,7 +8,7 @@ public class SimpleController {
 
     @GetMapping(value = "/welcome")
     public String welcome(){
-        return "Welcome on dev branch - Codepipline setup";
+        return "Welcome on dev branch - Codepipline setup - Demo";
     }
 
 }
